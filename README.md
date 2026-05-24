@@ -18,6 +18,10 @@ Wiring Guide
     Red                   Pin 9
     Yellow                Pin 8
     Green                 Pin 7
+<img width="968" height="777" alt="Circuit_Trafficlight" src="https://github.com/user-attachments/assets/297aa584-c651-450d-b5d0-86e95af06ff0" />
+
+
+
 
 -- Auto Light system --
 //Light-Sensitive Automatic Night Light (Arduino)
@@ -34,3 +38,6 @@ Wiring Guide
               LED Cathode: (-)GND
   How it WorksAnalog Reading: 
               The Arduino continuously reads the voltage from the LDR on pin A0 using analogRead().Threshold Logic: The sensorValue (ranging from 0 to 1023) is                 evaluated by an if statement.Automatic Response:Dark (Value < 150): The condition is met, and the Arduino sends HIGH to pin 8, turning the LED                    ON.Light (Value >= 150): The else block executes, sending LOW to pin 8, turning the LED OFF.
+
+  <img width="1314" height="740" alt="Circuit_Autolight" src="https://github.com/user-attachments/assets/677e6045-b721-44c0-8daa-5dc1919cf4e5" />
+
